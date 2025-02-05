@@ -120,4 +120,4 @@ $f_v\leftarrow f_u$ 可以体现换根，即以 $u$ 为根转移到以 $v$ 为�
 
 ## 参考资料与注释
 
-[^note1]: [子树合并背包类型的 dp 的复杂度证明 - LYD729 的 CSDN 博客](https://blog.csdn.net/lyd_7_29/article/details/79854245)
+[^note1]: [子树合并背包类型的 dp 的复杂度证明 - LYD729 的 CSDN 博客](https://blog.csdn.net/lyd_7_29/article/details/79854245)，一种更为简洁且通用的证明方法是由于每个点的有效 dp 值上界为子树大小，我们将这些值用子树内的点去代表，那么两个点只会在 lca 处被统计，所以复杂度是平方级别的。
